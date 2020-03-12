@@ -1,0 +1,67 @@
+#
+# paths
+#
+set header_cache = "~/.mutt/cache/headers"
+set message_cachedir = "~/.mutt/cache/bodies"
+set certificate_file = "~/.mutt/certificates"
+
+
+#
+# sidebar
+#
+set sidebar_visible = yes
+set sidebar_format = "%B%?F? [%F]?%* %?N?%N/?%S"
+set mail_check_stats = yes
+
+
+#
+# default editor
+#
+set editor = "vim"
+
+
+#
+# basic settings
+#
+set move = no
+set copy = yes                      # Keep copies of outgoing mail...
+set delete = yes                    # Delete messages without asking.
+set include = yes                   # Include the message in replies.
+set sort = threads
+set edit_headers = yes              # Edit email headers.
+set abort_nosubject = yes           # Cancel a message when subject is blank.
+set sort_aux = last-date-received   # Sort based on last recieved.
+
+set beep_new                        # Beep on new messages in the mailboxes.
+set timeout = 10                    # Trigger mail check every 10 seconds.
+set mail_check = 5                  # Check mail every 5 seconds.
+set sendmail_wait = -1              # Don't wait around for sendmail.
+set imap_keepalive = 500            # Wait before polling open IMAP connections.
+
+
+#
+# email signature
+#
+set signature = "~/Dropbox/config/.signature"
+
+# ------------------------------- trying this stuff out -------------------------------
+
+set quit                 # don't ask, just do!!
+
+
+#Header Options -------------------------------------
+
+ignore *                                # ignore all headers
+unignore from: to: cc: date: subject:   # show only these
+unhdr_order *                           # some distros order things by default
+hdr_order from: to: cc: date: subject:  # and in this order
+
+# no pause between folder switching
+set sleep_time=0
+
+# view html emails
+auto_view text/html
+
+# but look at plain text first
+alternative_order text/plain text/enriched text/html
+

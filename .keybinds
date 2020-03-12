@@ -1,0 +1,37 @@
+#
+# fetch mail
+#
+bind index,pager F imap-fetch-mail
+
+
+#
+# vim-key binding
+#
+bind index,pager k previous-entry
+bind index,pager j next-entry
+bind index,pager g noop
+bind index gg first-entry
+bind pager gg top
+bind index G last-entry
+bind pager G bottom
+
+
+#
+# sidebar navigation
+#
+bind index,pager <down> sidebar-next
+bind index,pager <up> sidebar-prev
+bind index,pager <right> sidebar-open
+
+
+#
+# reply to all
+#
+bind index,pager R group-reply
+
+
+#
+# the new stuff
+#
+bind editor <Tab>    complete-query
+
