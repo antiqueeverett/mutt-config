@@ -1,28 +1,18 @@
-#
-# paths
-#
 set header_cache = "~/.mutt/cache/headers"
 set message_cachedir = "~/.mutt/cache/bodies"
 set certificate_file = "~/.mutt/certificates"
 
-
-#
-# sidebar
-#
+# -- sidebar
 set sidebar_visible = yes
 set sidebar_format = "%B%?F? [%F]?%* %?N?%N/?%S"
 set mail_check_stats = yes
 
 
-#
-# default editor
-#
+# -- setting default editor
 set editor = "vim"
 
 
-#
-# basic settings
-#
+# -- basic settings
 set move = no
 set copy = yes                      # Keep copies of outgoing mail...
 set delete = yes                    # Delete messages without asking.
@@ -39,11 +29,11 @@ set sendmail_wait = -1              # Don't wait around for sendmail.
 set imap_keepalive = 500            # Wait before polling open IMAP connections.
 
 
-#
-# email signature
-#
+# -- setting email signature
 set signature = "~/Dropbox/config/.signature"
 
+# ------------------------------- trying this stuff out -------------------------------
+# ------------------------------- trying this stuff out -------------------------------
 # ------------------------------- trying this stuff out -------------------------------
 
 set quit                 # don't ask, just do!!
@@ -65,3 +55,6 @@ auto_view text/html
 # but look at plain text first
 alternative_order text/plain text/enriched text/html
 
+# ------------------------------- trying this stuff out -------------------------------
+# ------------------------------- trying this stuff out -------------------------------
+# ------------------------------- trying this stuff out -------------------------------

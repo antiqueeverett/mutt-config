@@ -1,6 +1,3 @@
-#
-# mailboxes
-#
 set folder = "imaps://xede4138@group.uni-weimar.de:993"
 set spoolfile = "+INBOX"
 set record = "+Sent"
