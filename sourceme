@@ -1,0 +1,7 @@
+source $PRIVATE_DOTFILES_PATH/.credentials
+source $MUTT_DOTFILES_PATH/.mailboxes
+source $MUTT_DOTFILES_PATH/.settings
+source $MUTT_DOTFILES_PATH/.keybinds
+source $MUTT_DOTFILES_PATH/.query
+source $MUTT_DOTFILES_PATH/colors-gruvbox-shuber.muttrc
+set signature ="$PRIVATE_DOTFILES_PATH/.signature"
