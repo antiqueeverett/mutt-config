@@ -3,5 +3,8 @@ source $MUTT_DOTFILES_PATH/.mailboxes
 source $MUTT_DOTFILES_PATH/.settings
 source $MUTT_DOTFILES_PATH/.keybinds
 source $MUTT_DOTFILES_PATH/.query
-source $MUTT_DOTFILES_PATH/colors-gruvbox-shuber.muttrc
+#source $MUTT_DOTFILES_PATH/themes/solarized-dark-256.neomuttrc
+#source $MUTT_DOTFILES_PATH/themes/neonwolf-256.neomuttrc nono !!!!
+#source $MUTT_DOTFILES_PATH/themes/vombatidae.neomuttrc
+source $MUTT_DOTFILES_PATH/themes/zenburn.neomuttrc
 set signature ="$PRIVATE_DOTFILES_PATH/.signature"
